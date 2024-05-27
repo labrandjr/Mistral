@@ -170,7 +170,7 @@ If lErrJson
 				 "Falha na inclusao do cte.",;
 				 .T.,;
 				 400,;
-				 "Houve uma falha na leitura dos dados no Json, efetue a correçao.")
+				 "Houve uma falha na leitura dos dados no Json, efetue a correcao.")
 	Return(.F.)
 Else
 	oJsonRet["success"] := .T.

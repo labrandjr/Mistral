@@ -1,5 +1,5 @@
 # Mistral & ERP.BR
-1. Executar UPDDISTR
+1. Executar UPDDISTR (release 2310). Caso a release seja 2210, utilize o dicionario_activecorp.zip que contém os DTC para Append.
 2. Compilar os fontes ACORPINT.PRW e ACORPMVC.PRW
 3. Inserir rotina no Menu (Função de Usuário ACORPMVC)
 4. EndPoint Token: api/oauth2/v1/token (Exemplo: http://localhost:8110/rest/api/oauth2/v1/token?grant_type=password&password=123456&username=Admin). Consulte EndpointToken.Png
